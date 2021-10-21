@@ -97,7 +97,14 @@ module.exports = {
     },
     appInsights: {
       instrumentationKey: "72804848-dc30-4856-8245-4fa1450b041f",
-    }
+    },
+    algolia: {
+      appId: 'YOUR_APP_ID',
+      apiKey: 'YOUR_SEARCH_API_KEY',
+      indexName: 'YOUR_INDEX_NAME',
+      contextualSearch: true,
+      appId: 'YOUR_APP_ID',
+    },
   },
   presets: [
     [
