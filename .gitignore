@@ -158,3 +158,10 @@ Output/
 
 # images
 *.png
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/oh-my-posh.iml
+/.idea/runConfigurations.xml
+/.idea/vcs.xml
