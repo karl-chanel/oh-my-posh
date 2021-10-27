@@ -238,6 +238,10 @@
         }
       ]
     }
-  ]
+  ],
+  "final_space": true,
+  "console_title": true,
+  "console_title_style": "template",
+  "console_title_template": "{{ .Shell }} @ {{ .Folder }}"
 
 }
