@@ -7,19 +7,21 @@ jobs:
       - name: showdir
         run: pwd
       - name: ls
-        run: ls
+        run: ls -alh
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: ls
-        run: ls
+        run: ls -alh
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
         run: echo "$GITHUB_CONTEXT"
+      - run: pwd
       - name: Dump job context
         env:
           JOB_CONTEXT: ${{ toJSON(job) }}
         run: echo "$JOB_CONTEXT"
+      - run: pwd
       - name: Dump steps context
         env:
           STEPS_CONTEXT: ${{ toJSON(steps) }}
