@@ -8,6 +8,10 @@ jobs:
         run: pwd
       - name: ls
         run: ls
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: ls
+        run: ls
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
