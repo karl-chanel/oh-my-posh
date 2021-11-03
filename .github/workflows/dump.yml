@@ -4,6 +4,8 @@ jobs:
   one:
     runs-on: ubuntu-latest
     steps:
+      - name: showdir
+        run: pwd
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
