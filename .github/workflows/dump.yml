@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: showdir
         run: pwd
+      - name: ls
+        run: ls
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
