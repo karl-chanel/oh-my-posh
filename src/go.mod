@@ -32,7 +32,7 @@ require (
 	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d
 	golang.org/x/sys v0.0.0-20211020064051-0ec99a608a1b
 	golang.org/x/text v0.3.7
-	gopkg.in/ini.v1 v1.63.2
+	gopkg.in/ini.v1 v1.64.0
 	howett.net/plist v0.0.0-20201203080718-1454fab16a06 // indirect
 )
 
